@@ -1,5 +1,5 @@
 {
-  "name": "postman-to-openapi",
+  "name": "@atlaspay/postman-to-openapi",
   "version": "3.0.1",
   "description": "Convert postman collection to OpenAPI spec",
   "main": "lib/index.js",
@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joolfe/postman-to-openapi.git"
+    "url": "git+https://github.com/AtlasPay/postman-to-openapi-atlas.git"
   },
   "keywords": [
     "swagger",
@@ -41,9 +41,9 @@
   "author": "joolfe04@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joolfe/postman-to-openapi/issues"
+    "url": "https://github.com/AtlasPay/postman-to-openapi-atlas/issues"
   },
-  "homepage": "https://github.com/joolfe/postman-to-openapi#readme",
+  "homepage": "https://github.com/AtlasPay/postman-to-openapi-atlas#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
@@ -65,7 +65,7 @@
     ]
   },
   "engines": {
-    "node": ">=14 <20"
+    "node": ">=14"
   },
   "nyc": {
     "all": true,
